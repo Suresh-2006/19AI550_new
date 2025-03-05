@@ -53,6 +53,14 @@ public class TransformOperations : MonoBehaviour
 ```
 ### Output:
 
+### Initial Stage:
+![image](https://github.com/user-attachments/assets/8c4b647f-97b3-43dd-866a-725555c586d1)
+
+## After Movement:
+![Uploading image.png…]()
+
+
+
 
 
 
