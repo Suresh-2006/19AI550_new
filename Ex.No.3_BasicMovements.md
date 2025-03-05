@@ -57,7 +57,8 @@ public class TransformOperations : MonoBehaviour
 ![image](https://github.com/user-attachments/assets/8c4b647f-97b3-43dd-866a-725555c586d1)
 
 ## After Movement:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/3a697dc5-2a0e-4c04-913e-d234fd000489)
+
 
 
 
