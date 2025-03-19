@@ -36,31 +36,30 @@ using UnityEngine;
 
 public class Player_movement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public float speed;
-    void Start()
-    {
-        float xdir = Input.GetAxis("horizontal") * speed;
-        float zdir = Input.GetAxis("vertical") * speed;
-        transform.position=new Vector3(xdir,zdir);
-    }
+    public float speed ; // Set a default speed
 
-    // Update is called once per frame
     void Update()
-    {
-        
-    }
+{
+    float xdir = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+    float zdir = Input.GetAxis("Vertical") * speed * Time.deltaTime;
+    transform.position += new Vector3(xdir, 0f, zdir); // Update position based on input
+}
+
 }
 **Evader script**
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
 public class Evader : MonoBehaviour
 {
     // Start is called before the first frame update
-    public NavMeshAgent agent;
+    public UnityEngine.AI.NavMeshAgent agent;
     public Transform target;
     public float evadespeed;
     void Start()
     {
-        agent= GetComponent<NavMeshAgent>();
+        agent= GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
     void evade()
@@ -77,15 +76,19 @@ public class Evader : MonoBehaviour
      }
 }
 **Pursuer script**
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
 public class Pursuer: MonoBehaviour
 {
     // Start is called before the first frame update
-    NavMeshAgent agent;
+    UnityEngine.AI.NavMeshAgent agent;
     public Transform target;
     public float speed;
     void Start()
     {
-        agent=this.GetComponent<NavMeshAgent>();
+        agent=this.GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
        // Update is called once per frame
     void pursue()
