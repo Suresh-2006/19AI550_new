@@ -1,6 +1,6 @@
 # Ex.No: 8  Implementation of Simple Pathfinding with Obstacles
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE:   24-03-2025
+### REGISTER NUMBER : 212223040215
 ### AIM: 
 To write a program to pathfinding using AI navigation 
 ### Algorithm:
@@ -29,7 +29,7 @@ Go to: Inspector → Add Component → NavMeshObstacle and Check: ✅ "Carve"
 ```  
 ### Program:
 ```
-using System.Collections;
+using System.Col-lections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -80,9 +80,11 @@ float movement = Mathf.PingPong(Time.time * moveSpeed, moveDistance) - moveDista
 transform.position = startPos + new Vector3(movement, 0, 0);
 ### Output:
 
+![WhatsApp Image 2025-03-24 at 7 13 21 PM](https://github.com/user-attachments/assets/63482d61-f64b-4d43-b469-8681d476c4a9)
 
 
 
+![WhatsApp Image 2025-03-24 at 7 13 28 PM](https://github.com/user-attachments/assets/7f00a593-e22d-456d-adaa-3ea94ed06b1b)
 
 
 
