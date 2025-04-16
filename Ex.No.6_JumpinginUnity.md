@@ -1,4 +1,4 @@
-# Experiment 7: Implementing Jumping Behavior in Unity 
+# Experiment 6: Implementing Jumping Behavior in Unity 
 ### DATE:   25-03-2025
 ### REGISTER NUMBER : 212223040215
 ### AIM: 
