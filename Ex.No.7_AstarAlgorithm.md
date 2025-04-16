@@ -140,7 +140,9 @@ Check the following
 ```
 ### Output:
 
-Initial Position:
+### Initial Position:
+
+
 ![433913643-4dd19eb2-f294-4a79-af6d-5ba14c05b1ec](https://github.com/user-attachments/assets/de56e9d7-cb0b-44cf-b2cb-dd1800f1a5e7)
 
 ![433913884-6362dd23-2e22-46bd-ba66-ef5519c68e0d](https://github.com/user-attachments/assets/6a0dbcbc-eb34-4265-9cde-7d74f7918fc0)
