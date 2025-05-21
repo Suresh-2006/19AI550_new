@@ -1,4 +1,4 @@
-# Ex.No: 10  Implementation of 2D/3D game -------------------
+# Ex.No: 10  Implementation of 2D/3D game -3D airplane obstacle avoidance game
 ### DATE:  21-05-2025                                                             
 ### REGISTER NUMBER : 212223040215
 ### AIM: 
