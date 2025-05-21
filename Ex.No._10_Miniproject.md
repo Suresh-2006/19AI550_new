@@ -133,7 +133,9 @@ public class ObstacleSpawner : MonoBehaviour
 ```
 
 ### Output:
-The player controls an airplane flying forward. Obstacles appear randomly. When the plane hits an obstacle, the game displays a "Game Over" screen, stops gameplay, and plays a sound. Score increases over time and is shown on screen.
+![image](https://github.com/user-attachments/assets/e0f861e5-f85c-4e27-9408-a608770d6f97)
+
+![image](https://github.com/user-attachments/assets/c01db7af-8cba-41c3-9fbf-5d016f309847)
 
 
 
